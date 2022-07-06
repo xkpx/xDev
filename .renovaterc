@@ -1,5 +1,8 @@
 {
 	"dependencyDashboard": true,
+	"constraints": {
+	    "pnpm": "7.5.0"
+	},
 	"packageRules": [{
 		"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
 		"automerge": true

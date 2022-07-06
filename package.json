@@ -21,20 +21,23 @@
 		"overrides": {
 			"typescript": "next",
 			"vite": "beta",
-			"svelte": "latest"
+			"svelte": "latest",
+			"tslib": "latest"
 		},
 		"peerDependencyRules": {
 			"peerDependencyRules": {
 				"allowAny": [
 					"typscript",
 					"vite",
-					"svelte"
+					"svelte",
+					"tslib"
 				]
 			},
 			"allowedVersions": {
 				"typescript": "next",
 				"vite": "beta",
-				"svelte": "latest"
+				"svelte": "latest",
+				"tslib": "latest"
 			}
 		}
 	},
