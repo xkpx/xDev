@@ -16,9 +16,6 @@ const {execSync} = require('child_process');
 				rollup-obfuscator \
 				express@next \
 				dotenv ", { cwd: process.cwd(), detached: false, stdio: "inherit" });
-	//execSync("pnpm install -P --no-optional svelte @sveltejs/kit@next vite@beta", { cwd: process.cwd(), detached: false, stdio: "inherit" });
-	//execSync("pnpm install -P --no-optional svelte-preprocess svelte-check", { cwd: process.cwd(), detached: false, stdio: "inherit" }); // tslib2.4 typescript@next4.8?
-	//execSync("pnpm install -P --no-optional express@next dotenv @sveltejs/adapter-node@next svelte-adapter-deno javascript-obfuscator rollup-obfuscator", { cwd: process.cwd(), detached: false, stdio: "inherit" });
 	execSync("pnpm prune --no-optional --prod");
 	execSync("pnpm store prune", 						{ cwd: process.cwd(), detached: false, stdio: "inherit" }); // Removes store unnecessary packages.
 	execSync("pnpm install --fix-lockfile", 			{ cwd: process.cwd(), detached: false, stdio: "inherit" });
