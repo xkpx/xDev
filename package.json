@@ -48,7 +48,7 @@
 		"express": "5.0.0-beta.1",
 		"javascript-obfuscator": "~4.0.0",
 		"rollup-obfuscator": "~3.0.1",
-		"svelte": "~3.48.0",
+		"svelte": "~3.49.0",
 		"svelte-adapter-deno": "~0.6.2",
 		"svelte-preprocess": "~4.10.7",
 		"vite": "3.0.0-beta.7"
