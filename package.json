@@ -43,7 +43,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-node": "1.0.0-next.79",
-		"@sveltejs/kit": "1.0.0-next.361",
+		"@sveltejs/kit": "1.0.0-next.367",
 		"dotenv": "~16.0.1",
 		"express": "5.0.0-beta.1",
 		"javascript-obfuscator": "~4.0.0",

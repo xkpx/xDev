@@ -8,7 +8,7 @@ overrides:
 
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.79
-  '@sveltejs/kit': 1.0.0-next.361
+  '@sveltejs/kit': 1.0.0-next.367
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.79
-  '@sveltejs/kit': 1.0.0-next.361_5olkfflneqpkfy4ddvbcwhpzge
+  '@sveltejs/kit': 1.0.0-next.367_5olkfflneqpkfy4ddvbcwhpzge
   dotenv: 16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
@@ -63,8 +63,8 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.361_5olkfflneqpkfy4ddvbcwhpzge:
-    resolution: {integrity: sha512-F5hvtNIakMqRpVg4kXQWNRnGTpud+N5HsY/Z6SWXndZUEwc2jDYDGq7ytzJp3Ep4+ZbA6yS5YbHiLdZcTMBgWQ==}
+  /@sveltejs/kit/1.0.0-next.367_5olkfflneqpkfy4ddvbcwhpzge:
+    resolution: {integrity: sha512-glilWol6iJEf8esQpH0HOzdI4n/xgZtoLa9U9sbg+BZelQXFRRglaGyw+ahjEreBH5MH3/bpIYAPPObQN8Pgbg==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
