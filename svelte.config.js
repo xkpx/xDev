@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess'; // seo opt
-import adapter from '@sveltejs/adapter-node';
+//import adapter from '@sveltejs/adapter-node';
 //import adapter from 'svelte-adapter-deno';
 import adapter from 'svelte-adapter-bun';
 
