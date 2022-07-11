@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.79
-  '@sveltejs/kit': 1.0.0-next.367
+  '@sveltejs/kit': 1.0.0-next.368
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -15,7 +15,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.79
-  '@sveltejs/kit': 1.0.0-next.367_svelte@3.49.0+vite@2.9.14
+  '@sveltejs/kit': 1.0.0-next.368_svelte@3.49.0+vite@2.9.14
   dotenv: 16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
@@ -59,9 +59,10 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.367_svelte@3.49.0+vite@2.9.14:
-    resolution: {integrity: sha512-glilWol6iJEf8esQpH0HOzdI4n/xgZtoLa9U9sbg+BZelQXFRRglaGyw+ahjEreBH5MH3/bpIYAPPObQN8Pgbg==}
+  /@sveltejs/kit/1.0.0-next.368_svelte@3.49.0+vite@2.9.14:
+    resolution: {integrity: sha512-0+JrQebSLbDrc7qPa4HsdG1v1+95ftHJhZtJD/VRifVoyUjURnWL4TrNcfnqNsgtacFWw+rO6obBr1PWc6Mlig==}
     engines: {node: '>=16.9'}
+    hasBin: true
     peerDependencies:
       svelte: ^3.44.0
       vite: ^2.9.10
@@ -93,7 +94,7 @@ packages:
       kleur: 4.1.5
       magic-string: 0.26.2
       svelte: 3.49.0
-      svelte-hmr: 0.14.12
+      svelte-hmr: 0.14.12_svelte@3.49.0
       vite: 2.9.14
     transitivePeerDependencies:
       - supports-color
@@ -1609,9 +1610,11 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /svelte-hmr/0.14.12:
+  /svelte-hmr/0.14.12_svelte@3.49.0:
     resolution: {integrity: sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
+    peerDependencies:
+      svelte: '>=3.19.0'
     dependencies:
       svelte: 3.49.0
     dev: false
@@ -1752,6 +1755,7 @@ packages:
   /vite/2.9.14:
     resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
+    hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
