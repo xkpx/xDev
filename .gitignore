@@ -6,3 +6,4 @@ node_modules
 !.env.example
 /xbuild_node
 /xbuild_deno
+/xbuild_bun
