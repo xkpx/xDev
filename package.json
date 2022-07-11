@@ -14,7 +14,8 @@
 		"update": "pnpm upgrade --latest -i",
 		"node": "node ./xbuild_node/index.js",
 		"express": "node ./xEXPRESS.js",
-		"deno": "deno run --allow-env --allow-read --allow-net xbuild_deno/index.js"
+		"deno": "deno run --allow-env --allow-read --allow-net xbuild_deno/index.js",
+		"bun": "bun run /xbuild_bun/index.js"
 	},
 	"type": "module",
 	"dependencies": {

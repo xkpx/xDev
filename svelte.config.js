@@ -24,7 +24,7 @@ const config = {
             out: 'xbuild_deno', // https://github.com/pluvial/svelte-adapter-deno
             precompress: true, // using gzip and brotli for assets and prerendered pages
             env: {
-                path: 'xbuild-deno',
+                path: 'xbuild_deno',
                 host: '127.0.0.1',
                 port: '8080',
             },
@@ -32,8 +32,8 @@ const config = {
             */
 
             // BUN
-            out: "build",
-            envPrefix: "MY_CUSTOM_",
+            out: "xbuild_bun",
+            envPrefix: "XKP_",
             development: true,
             // precompress: true,
             precompress: {

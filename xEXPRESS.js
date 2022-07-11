@@ -1,7 +1,7 @@
 // https://github.com/sveltejs/kit/tree/master/packages/adapter-node#custom-server
 // The adapter creates two files in your build directory — index.js and handler.js. 
 // Running index.js — e.g. node build, if you use the default build directory — will start a server on the configured port.
-import { handler } from './xbuild-node/handler.js';
+import { handler } from './xbuild_node/handler.js';
 import express from 'express';
 
 const app = express();
