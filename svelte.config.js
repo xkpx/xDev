@@ -40,7 +40,7 @@ const config = {
             precompress: {
                 brotli: true,
                 gzip: true,
-                files: ["htm", "html"]
+                files: ["htm", "html"] // css , js ?
             },
             dynamic_origin: true,
             xff_depth: 1
