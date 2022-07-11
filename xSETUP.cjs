@@ -5,7 +5,7 @@
 const {execSync} = require('child_process');    
 	execSync("set NODE_ENV=production", { stdio: "inherit" }); 
 	execSync("pnpm env use --global latest", { stdio: "inherit" });  // nightly=19 nightly=18.4 	
-	execSync("pnpm install --no-optional --ignore-scripts @sveltejs/kit@next vite@beta svelte svelte-preprocess @sveltejs/adapter-node@next svelte-adapter-deno javascript-obfuscator rollup-obfuscator express@next dotenv", { cwd: process.cwd(), detached: false, stdio: "inherit" });
+	execSync("pnpm install --no-optional --ignore-scripts @sveltejs/kit@next vite svelte svelte-preprocess @sveltejs/adapter-node@next svelte-adapter-deno svelte-adapter-bun javascript-obfuscator rollup-obfuscator express@next dotenv", { cwd: process.cwd(), detached: false, stdio: "inherit" });
 	execSync("pnpm prune --no-optional --prod");
 	execSync("pnpm store prune", 					{ cwd: process.cwd(), detached: false, stdio: "inherit" }); // Removes store unnecessary packages.
 	execSync("pnpm install --fix-lockfile", 		{ cwd: process.cwd(), detached: false, stdio: "inherit" });
