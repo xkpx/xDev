@@ -26,7 +26,7 @@
 		"javascript-obfuscator": "~4.0.0",
 		"rollup-obfuscator": "~3.0.1",
 		"svelte": "~3.49.0",
-		"svelte-adapter-bun": "~0.2.1",
+		"svelte-adapter-bun": "~0.3.0",
 		"svelte-adapter-deno": "~0.6.2",
 		"svelte-preprocess": "~4.10.7",
 		"vite": "~2.9.14"
