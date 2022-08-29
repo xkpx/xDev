@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-node': 1.0.0-next.87
+  '@sveltejs/adapter-node': 1.0.0-next.88
   '@sveltejs/kit': 1.0.0-next.445
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
@@ -14,7 +14,7 @@ specifiers:
   vite: ~3.0.0
 
 dependencies:
-  '@sveltejs/adapter-node': 1.0.0-next.87
+  '@sveltejs/adapter-node': 1.0.0-next.88
   '@sveltejs/kit': 1.0.0-next.445_svelte@3.49.0+vite@3.0.2
   dotenv: 16.0.1
   express: 5.0.0-beta.1
@@ -57,8 +57,10 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@sveltejs/adapter-node/1.0.0-next.87:
-    resolution: {integrity: sha512-ktvZ0+uthYH6SQMO34acbqkReeIcNMD1b7fnWqRIBj5CrgeBarvmbcj+x3/QKpOIG7s11yjwgYhOGLxZX0VMHw==}
+  /@sveltejs/adapter-node/1.0.0-next.88:
+    resolution: {integrity: sha512-N75E0tbq1+70/8lYUbttj7ry+5PDl7DB29aJqYIQQdnWMkIv0CPnH5ux4fwDuQJuhR7k1lfUbLd96JWwPBHvIg==}
+    dependencies:
+      esbuild: 0.14.49
     dev: false
 
   /@sveltejs/kit/1.0.0-next.445_svelte@3.49.0+vite@3.0.2:
