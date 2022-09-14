@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.91
-  '@sveltejs/kit': 1.0.0-next.481
+  '@sveltejs/kit': 1.0.0-next.483
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -15,7 +15,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.91
-  '@sveltejs/kit': 1.0.0-next.481_svelte@3.50.0+vite@3.1.0
+  '@sveltejs/kit': 1.0.0-next.483_svelte@3.50.0+vite@3.1.0
   dotenv: 16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
@@ -72,8 +72,8 @@ packages:
       esbuild: 0.15.7
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.481_svelte@3.50.0+vite@3.1.0:
-    resolution: {integrity: sha512-rgt6KKjUmx/S/a/duntAp+yds9F3fSm6uq8nvfWHuT1aVGSC5sOdNDrKqck7PCUc9/GPJ6WJu3et5R69hqevRw==}
+  /@sveltejs/kit/1.0.0-next.483_svelte@3.50.0+vite@3.1.0:
+    resolution: {integrity: sha512-0aiVdVJSy1kiK7xp4bw81qjDkErVaA6oIPlpbjsIYe2UYfeg3aRtST41b6XzLbyg61qLlHVGoM5WTLTIdLnbAQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
