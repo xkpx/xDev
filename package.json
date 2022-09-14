@@ -19,7 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "1.0.0-next.90",
+		"@sveltejs/adapter-node": "1.0.0-next.91",
 		"@sveltejs/kit": "1.0.0-next.481",
 		"dotenv": "~16.0.1",
 		"express": "5.0.0-beta.1",
