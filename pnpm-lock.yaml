@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-node': 1.0.0-next.95
+  '@sveltejs/adapter-node': 1.0.0-next.96
   '@sveltejs/kit': 1.0.0-next.503
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
@@ -14,7 +14,7 @@ specifiers:
   vite: ~3.1.0
 
 dependencies:
-  '@sveltejs/adapter-node': 1.0.0-next.95
+  '@sveltejs/adapter-node': 1.0.0-next.96
   '@sveltejs/kit': 1.0.0-next.503_svelte@3.50.0+vite@3.1.0
   dotenv: 16.0.1
   express: 5.0.0-beta.1
@@ -138,8 +138,8 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@sveltejs/adapter-node/1.0.0-next.95:
-    resolution: {integrity: sha512-RrAsFjb8qG9Q0yWusGLBB5OhejR6RfRG3X7b/V65fcIB4t3IP7hkwgNOyuXQd5jQ24lbt+Tyx3fguEfQvhMrhw==}
+  /@sveltejs/adapter-node/1.0.0-next.96:
+    resolution: {integrity: sha512-tIHaRolUYy2PiHl4RUWaOsYxEjK5lN9501qzCzFbYr/uoLnZcnPGSXNJICwX0AX9AUkV6cvkZey6bLbUQcwH0Q==}
     dependencies:
       '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
       '@rollup/plugin-json': 4.1.0_rollup@2.78.1
