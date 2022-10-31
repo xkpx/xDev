@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.100
-  '@sveltejs/kit': 1.0.0-next.528
+  '@sveltejs/kit': 1.0.0-next.529
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -15,7 +15,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.100
-  '@sveltejs/kit': 1.0.0-next.528_svelte@3.52.0+vite@3.2.0
+  '@sveltejs/kit': 1.0.0-next.529_svelte@3.52.0+vite@3.2.0
   dotenv: 16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
@@ -148,8 +148,8 @@ packages:
       rollup: 2.79.1
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.528_svelte@3.52.0+vite@3.2.0:
-    resolution: {integrity: sha512-zUtXzWU4+EgT9cw5s7laPM6jgLQatGui+pCxUyQzEpMwDAOeNWduYl4bEFCRyfQTSNzQK+nnpkR+e5X+TO8BHA==}
+  /@sveltejs/kit/1.0.0-next.529_svelte@3.52.0+vite@3.2.0:
+    resolution: {integrity: sha512-wM9Y38m8GVNT2YDQo41XNNa55OwTiGE+4fEuuhQnQY4nOSihXGllPsdIulnVsrxcSw9jKLkzwJdFr+i2y2y+OQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -160,7 +160,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 1.1.0_svelte@3.52.0+vite@3.2.0
       '@types/cookie': 0.5.1
       cookie: 0.5.0
-      devalue: 4.0.0
+      devalue: 4.0.1
       kleur: 4.1.5
       magic-string: 0.26.7
       mime: 3.0.0
@@ -495,8 +495,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /devalue/4.0.0:
-    resolution: {integrity: sha512-w25siwXyuMUqMr7jPlEjyNCp1vn0Jzj/fNg3qVt/r/Dpe8HjESh2V92L0jmh3uq4iJt0BvjH+Azk1pQzkcnDWA==}
+  /devalue/4.0.1:
+    resolution: {integrity: sha512-Oksbel8g2rv5ivcCyImF1RXEU2FcS1OtCwVs4tJCCeVws/Dp9EE15fUbEsNr/xLD3ZxsQURBCDf56Lk1CgwCpg==}
     dev: false
 
   /dotenv/16.0.1:
