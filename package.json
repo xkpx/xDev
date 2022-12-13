@@ -25,7 +25,7 @@
 		"express": "5.0.0-beta.1",
 		"javascript-obfuscator": "~4.0.0",
 		"rollup-obfuscator": "~3.0.1",
-		"svelte": "~3.54.0",
+		"svelte": "~3.55.0",
 		"svelte-adapter-bun": "~0.3.0",
 		"svelte-adapter-deno": "~0.8.0",
 		"svelte-preprocess": "~4.10.7",
