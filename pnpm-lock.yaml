@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@sveltejs/adapter-node': 1.0.0
+  '@sveltejs/adapter-node': 1.0.1
   '@sveltejs/kit': 1.0.1
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
@@ -14,7 +14,7 @@ specifiers:
   vite: ~3.2.0
 
 dependencies:
-  '@sveltejs/adapter-node': 1.0.0_@sveltejs+kit@1.0.1
+  '@sveltejs/adapter-node': 1.0.1_@sveltejs+kit@1.0.1
   '@sveltejs/kit': 1.0.1_svelte@3.55.0+vite@3.2.0
   dotenv: 16.0.1
   express: 5.0.0-beta.1
@@ -71,8 +71,8 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: false
 
-  /@rollup/plugin-commonjs/23.0.2_rollup@3.7.0:
-    resolution: {integrity: sha512-e9ThuiRf93YlVxc4qNIurvv+Hp9dnD+4PjOqQs5vAYfcZ3+AXSrcdzXnVjWxcGQOa6KGJFcRZyUI3ktWLavFjg==}
+  /@rollup/plugin-commonjs/24.0.0_rollup@3.7.0:
+    resolution: {integrity: sha512-0w0wyykzdyRRPHOb0cQt14mIBLujfAv6GgP6g8nvg/iBxEm112t3YPPq+Buqe2+imvElTka+bjNlJ/gB56TD8g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -85,12 +85,12 @@ packages:
       estree-walker: 2.0.2
       glob: 8.0.3
       is-reference: 1.2.1
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       rollup: 3.7.0
     dev: false
 
-  /@rollup/plugin-json/5.0.1_rollup@3.7.0:
-    resolution: {integrity: sha512-QCwhZZLvM8nRcTHyR1vOgyTMiAnjiNj1ebD/BMRvbO1oc/z14lZH6PfxXeegee2B6mky/u9fia4fxRM4TqrUaw==}
+  /@rollup/plugin-json/6.0.0_rollup@3.7.0:
+    resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0
@@ -143,13 +143,13 @@ packages:
       rollup: 3.7.0
     dev: false
 
-  /@sveltejs/adapter-node/1.0.0_@sveltejs+kit@1.0.1:
-    resolution: {integrity: sha512-Q8an8CXEt5XlFbyT1NBM4xELNZD8xPVZfKCcgorCfPkeBP5ftDgPaK12JIokXA5koYJ54AJcNY4ams9TZ7yGxA==}
+  /@sveltejs/adapter-node/1.0.1_@sveltejs+kit@1.0.1:
+    resolution: {integrity: sha512-Lbk97qUJzCgSLEUtfSn3GDxMXtAkhzooYNdIT9NbfP6KQ8Itg6x+5haOGxumuVXUJbZuh8VY9gPo9qLM6x41ww==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@rollup/plugin-commonjs': 23.0.2_rollup@3.7.0
-      '@rollup/plugin-json': 5.0.1_rollup@3.7.0
+      '@rollup/plugin-commonjs': 24.0.0_rollup@3.7.0
+      '@rollup/plugin-json': 6.0.0_rollup@3.7.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.7.0
       '@sveltejs/kit': 1.0.1_svelte@3.55.0+vite@3.2.0
       rollup: 3.7.0
@@ -1248,13 +1248,6 @@ packages:
 
   /libphonenumber-js/1.10.7:
     resolution: {integrity: sha512-jZXLCCWMe1b/HXkjiLeYt2JsytZMcqH26jLFIdzFDFF0xvSUWrYKyvPlyPG+XJzEyKUFbcZxLdWGMwQsWaHDxQ==}
-    dev: false
-
-  /magic-string/0.26.7:
-    resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
-    engines: {node: '>=12'}
-    dependencies:
-      sourcemap-codec: 1.4.8
     dev: false
 
   /magic-string/0.27.0:
