@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-node': 1.1.4
-  '@sveltejs/kit': 1.2.6
+  '@sveltejs/kit': 1.2.9
   dotenv: ~16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -14,8 +14,8 @@ specifiers:
   vite: ~4.0.0
 
 dependencies:
-  '@sveltejs/adapter-node': 1.1.4_@sveltejs+kit@1.2.6
-  '@sveltejs/kit': 1.2.6_svelte@3.55.0+vite@4.0.4
+  '@sveltejs/adapter-node': 1.1.4_@sveltejs+kit@1.2.9
+  '@sveltejs/kit': 1.2.9_svelte@3.55.0+vite@4.0.4
   dotenv: 16.0.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
@@ -341,7 +341,7 @@ packages:
       rollup: 3.7.0
     dev: false
 
-  /@sveltejs/adapter-node/1.1.4_@sveltejs+kit@1.2.6:
+  /@sveltejs/adapter-node/1.1.4_@sveltejs+kit@1.2.9:
     resolution: {integrity: sha512-3iEBqi1fXLXP9YIbVuz2LXajoebRJCmAFEQbN40DlxAnA7G+InxUgnqFun3q9gBMz2Qvd99K51g/HxWetXRe8Q==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
@@ -349,12 +349,12 @@ packages:
       '@rollup/plugin-commonjs': 24.0.0_rollup@3.7.0
       '@rollup/plugin-json': 6.0.0_rollup@3.7.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.7.0
-      '@sveltejs/kit': 1.2.6_svelte@3.55.0+vite@4.0.4
+      '@sveltejs/kit': 1.2.9_svelte@3.55.0+vite@4.0.4
       rollup: 3.7.0
     dev: false
 
-  /@sveltejs/kit/1.2.6_svelte@3.55.0+vite@4.0.4:
-    resolution: {integrity: sha512-dESK7mYjIm9yQWA7esAbHg7MoWOpB8Ztgzmc7LAvrGlsg2bs1+NPhSPaMKs7CQFznkunzrlE4Q4irMPiXJQmIw==}
+  /@sveltejs/kit/1.2.9_svelte@3.55.0+vite@4.0.4:
+    resolution: {integrity: sha512-zHuYwMgCJpmgYoQ1EOIgNFNkBTKqErHH+fqZVfNmEw2hICoKZHIjqm8/fetRUtF71dqXq0TmPS/HuCCBHXQiZw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
