@@ -29,6 +29,6 @@
 		"svelte-adapter-bun": "~0.4.0",
 		"svelte-adapter-deno": "~0.9.0",
 		"svelte-preprocess": "~5.0.0",
-		"vite": "~4.1.0"
+		"vite": "~4.2.0"
 	}
 }
