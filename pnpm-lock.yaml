@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sveltejs/adapter-node': 1.2.4
-  '@sveltejs/kit': 1.20.0
+  '@sveltejs/kit': 1.20.1
   dotenv: ~16.1.0
   express: 5.0.0-beta.1
   javascript-obfuscator: ~4.0.0
@@ -14,15 +14,15 @@ specifiers:
   vite: ~4.3.0
 
 dependencies:
-  '@sveltejs/adapter-node': 1.2.4_@sveltejs+kit@1.20.0
-  '@sveltejs/kit': 1.20.0_svelte@3.59.0+vite@4.3.0
+  '@sveltejs/adapter-node': 1.2.4_@sveltejs+kit@1.20.1
+  '@sveltejs/kit': 1.20.1_svelte@3.59.0+vite@4.3.0
   dotenv: 16.1.0
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
   rollup-obfuscator: 3.0.1
   svelte: 3.59.0
   svelte-adapter-bun: 0.4.0
-  svelte-adapter-deno: 0.9.0_@sveltejs+kit@1.20.0
+  svelte-adapter-deno: 0.9.0_@sveltejs+kit@1.20.1
   svelte-preprocess: 5.0.0_svelte@3.59.0
   vite: 4.3.0
 
@@ -387,7 +387,7 @@ packages:
       rollup: 3.20.6
     dev: false
 
-  /@sveltejs/adapter-node/1.2.4_@sveltejs+kit@1.20.0:
+  /@sveltejs/adapter-node/1.2.4_@sveltejs+kit@1.20.1:
     resolution: {integrity: sha512-TNnhS+OKRZ9RKnC+ho5mlE2FJquI61i0v7yOXxBUSU3LAoYH2kwVVL8P8ecjefmZ8BOfM1V54pBnDODBU5CEaA==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
@@ -395,12 +395,12 @@ packages:
       '@rollup/plugin-commonjs': 24.0.1_rollup@3.20.6
       '@rollup/plugin-json': 6.0.0_rollup@3.20.6
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.20.6
-      '@sveltejs/kit': 1.20.0_svelte@3.59.0+vite@4.3.0
+      '@sveltejs/kit': 1.20.1_svelte@3.59.0+vite@4.3.0
       rollup: 3.20.6
     dev: false
 
-  /@sveltejs/kit/1.20.0_svelte@3.59.0+vite@4.3.0:
-    resolution: {integrity: sha512-2ZW14afgcCQBk3BN8+FWUUCIZg+TKeDFuOMUpDNllTa6sKZ+YQNpxhsrt9abaZohPGsGGOYmk5fzy8D8MHVNBw==}
+  /@sveltejs/kit/1.20.1_svelte@3.59.0+vite@4.3.0:
+    resolution: {integrity: sha512-iZ7PvbM45sdLR3KIXFTbwIwP4PmeO/7JdNdpKRc/T9xMgDabNlPhL1gnJ/Hi1w00g4nc3Zpo/HNrzbRmuOnUjQ==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -1852,7 +1852,7 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /svelte-adapter-deno/0.9.0_@sveltejs+kit@1.20.0:
+  /svelte-adapter-deno/0.9.0_@sveltejs+kit@1.20.1:
     resolution: {integrity: sha512-BIo0tb3BXp9kimM9NQYR9+xqUXKFgMzxS8+5Ly256MoHl8F3ENMFDF0yCCyiqtf3M/LuZwQKq7Ko4PhpQZMUAQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
@@ -1860,7 +1860,7 @@ packages:
       '@rollup/plugin-commonjs': 24.0.1_rollup@3.12.0
       '@rollup/plugin-json': 6.0.0_rollup@3.12.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.12.0
-      '@sveltejs/kit': 1.20.0_svelte@3.59.0+vite@4.3.0
+      '@sveltejs/kit': 1.20.1_svelte@3.59.0+vite@4.3.0
       rollup: 3.12.0
     dev: false
 
